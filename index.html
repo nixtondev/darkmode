@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Change darkmode</title>
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: #123;
+  color: #FFF;
+}
+
+.btnsubmit {
+background-color: transparent;
+border: 0;
+outline: 0;
+}
+
+</style>
+</head>
+<body>
+<button onclick="myFunction()" class="btnsubmit">dark mode</button>
+    <script>
+    function myFunction() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+    }
+    </script>
+</body>
+</html>
